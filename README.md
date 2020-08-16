@@ -18,6 +18,24 @@ npm install mongoose --save
 npm install body-parser --save
 ```
 
+- bcrypt
+
+```bash
+npm install bcrypt --save
+```
+
+- jsonwebtoken
+
+```bash
+npm install jsonwebtoken --save
+```
+
+- cookie-parser
+
+```bash
+npm install cookie-parser
+```
+
 ## Use devDependencies
 
 - nodemon
