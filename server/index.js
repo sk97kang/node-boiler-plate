@@ -2,8 +2,7 @@
 const express = require("express");
 // express app을 만듬
 const app = express();
-// 5000번 포트 사용
-const port = 5000;
+
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const config = require("./config/key");
@@ -101,6 +100,8 @@ app.get("/api/users/logout", auth, (req, res) => {
   });
 });
 
+// 5000번 포트 사용
+const port = 5000;
 // port 5000 으로 app을 실행
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);

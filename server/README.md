@@ -45,10 +45,6 @@ npm install jsonwebtoken --save
 npm install cookie-parser
 ```
 
-```bash
-npm install concurrently --save
-```
-
 ## Use devDependencies
 
 - nodemon
